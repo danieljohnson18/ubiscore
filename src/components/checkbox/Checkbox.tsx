@@ -15,7 +15,7 @@ const Checkbox = ({ children, ...props }: any) => {
         {children}
       </label>
       {meta.touched && meta.error ? (
-        <div className="error">{meta.error}</div>
+        <div className={styles.error}>{meta.error}</div>
       ) : null}
     </div>
   );
