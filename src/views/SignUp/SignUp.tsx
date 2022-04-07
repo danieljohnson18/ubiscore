@@ -81,8 +81,8 @@ const SignUp = () => {
                         ),
                       jobType: Yup.string()
                         .oneOf(
-                          ["designer", "development", "product", "other"],
-                          "Invalid Job Type"
+                          ["Google ad", "twitter", "linkedin", "indeed"],
+                          "Invalid Selection"
                         )
                         .required("Required"),
                     })}
